@@ -4,6 +4,7 @@ import axios from "axios";
 import Home from "./Home";
 import { useState } from "react";
 const Register = () => {
+  const [loading, setLoading] = useState(false);
   const [firstName, setFirstName] = useState("");
   const [lastname, setLastname] = useState("");
   const [email, setEmail] = useState("");
@@ -13,10 +14,11 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(firstName, lastname, email, phone, password);
-
+    // setLoading(true);
+    // alert("Registration Successfull!");
     // SENDING DATAAAAAAAA
-
     // try {
+    // setLoading(true);
     //  const response= await axios.post("Eventr/api/v1/register", {
     //   firstName,
     //   lastname,
@@ -25,12 +27,17 @@ const Register = () => {
     //   password,
     // });
     //   if( response.success === true){
-    //     alert("Successful!")
+    // setLoading(false)
+    //        alert("Registration Successfull!");
     //   }
     // } catch (error) {
     //   console.log(error);
+    // setLoading(false)
     // }
   };
+  if (loading) {
+    return <div className="loading"></div>;
+  }
   return (
     <div>
       <h1> Sign Up</h1>
