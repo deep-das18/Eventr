@@ -27,6 +27,11 @@ const Register = () => {
     //   password,
     // });
     //   if( response.success === true){
+    // setFirstName("")
+    // setLastname("")
+    // setEmail("")
+    // setPhone("")
+    // setPassword("")
     // setLoading(false)
     //        alert("Registration Successfull!");
     //   }
