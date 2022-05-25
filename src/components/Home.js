@@ -1,5 +1,7 @@
+import Slider from "./Slider";
+
 const Home = () => {
-  return <h1 className=" text-4xl">Home Page</h1>;
+  return <Slider />;
 };
 
 export default Home;
