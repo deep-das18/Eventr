@@ -73,6 +73,7 @@ Global Styles
 
 /* section */
 .section {
+  width: 100vw;
 }
 
 @media screen and (min-width: 992px) {
@@ -102,7 +103,7 @@ Slider
   font-weight: 700;
 }
 .section-center {
-  width: 1583px;
+  width: 100%;
   height: 700px;
   text-align: center;
   position: relative;
