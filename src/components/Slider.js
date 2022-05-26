@@ -45,7 +45,7 @@ function Slider() {
           ) {
             position = "lastSlide";
           }
-
+          position = position + " " + "slider-img";
           return (
             <article className={position} key={id}>
               <img src={image} alt="slider" className="person-img" />

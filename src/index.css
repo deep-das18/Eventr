@@ -164,7 +164,7 @@ article h4 {
     font-size: 1.5rem;
   }
 }
-article {
+.slider-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -190,4 +190,10 @@ article.nextSlide {
 }
 .navbar {
   z-index: 1;
+}
+
+/* FEATURES IMAGE */
+
+.features-image {
+  width: 700px;
 }
