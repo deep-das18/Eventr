@@ -25,12 +25,12 @@ function Slider() {
   }, [index]);
 
   return (
-    <section>
-      <div className="title">
-        {/* <h2>
+    <section className="slider">
+      {/* <div className="title">
+        <h2>
           <span>Find Services At Your Doorstep</span>
-        </h2> */}
-      </div>
+        </h2>
+      </div> */}
       <div className="section-center">
         {people.map((person, personIndex) => {
           const { id, image } = person;
@@ -48,7 +48,7 @@ function Slider() {
 
           return (
             <article className={position} key={id}>
-              <img src={image} alt="image" className="person-img" />
+              <img src={image} alt="slider" className="person-img" />
             </article>
           );
         })}
