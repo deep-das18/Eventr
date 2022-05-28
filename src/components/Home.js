@@ -1,12 +1,12 @@
-import Carousel from "./Carousel";
 import Features from "./Features";
+import ServicesCarousel from "./ServicesCarousel";
 import Slider from "./Slider";
 
 const Home = () => {
   return (
     <>
       <Slider />
-      <Carousel />
+      <ServicesCarousel />
       <Features />
     </>
   );
