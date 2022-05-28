@@ -208,4 +208,9 @@ article.nextSlide {
   margin: 0 20px;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  font-weight: 700;
+}
+.kdCslO {
+  visibility: hidden;
 }

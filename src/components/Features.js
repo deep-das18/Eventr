@@ -5,7 +5,7 @@ const Features = () => {
     <section className=" flex bg-pink-300 p-4 justify-evenly">
       <article className=" font-semibold">
         <h2 className=" text-3xl font-bold mt-12 mb-9">
-          A whole world of Services at your Fingertips
+          A Whole World of Services at your Fingertips
         </h2>
         <ul>
           <li className="mb-6">
