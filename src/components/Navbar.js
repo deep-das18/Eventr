@@ -37,7 +37,9 @@ export default function Navbar({ fixed }) {
                   to="/register"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Register</span>
+                  <span className="ml-2 text-border text-gray-500">
+                    Register
+                  </span>
                 </Link>
               </li>
               <li className="nav-item">
@@ -46,7 +48,7 @@ export default function Navbar({ fixed }) {
                   to="/login"
                 >
                   <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Log in</span>
+                  <span className="ml-2 text-border text-gray-500">Log in</span>
                 </Link>
               </li>
               <li className="nav-item">
@@ -55,7 +57,7 @@ export default function Navbar({ fixed }) {
                   href="#pablo"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Pin</span>
+                  <span className="ml-2 text-border text-gray-500">Pin</span>
                 </a>
               </li>
             </ul>
