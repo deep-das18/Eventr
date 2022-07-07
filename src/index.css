@@ -186,10 +186,11 @@ article.nextSlide {
 
 /* NAVBAR */
 .slider {
-  margin-top: -4rem;
+  margin-top: -1.25rem;
 }
 .navbar {
   z-index: 1;
+  margin-top: -0.75rem;
 }
 
 /* FEATURES IMAGE */
@@ -217,4 +218,7 @@ article.nextSlide {
 .merchant-banner {
   width: 100%;
   height: 40rem;
+}
+.merchant-banner {
+  height: 80vh;
 }
