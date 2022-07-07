@@ -6,6 +6,9 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import MerchantPage from "./pages/MerchantPage";
+import MerchantRegister from "./pages/MerchantRegister";
+import MerchantLogin from "./pages/MerchantLogin";
 import "./index.css";
 
 export default function App() {
@@ -16,6 +19,9 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/merchant-page" element={<MerchantPage />} />
+        <Route path="/merchant-register" element={<MerchantRegister />} />
+        <Route path="/merchant-login" element={<MerchantLogin />} />
       </Routes>
       <Footer />
     </Router>

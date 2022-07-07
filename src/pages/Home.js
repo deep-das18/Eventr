@@ -59,7 +59,7 @@ const MerchantBanner = () => {
         </ul>
         <Link
           className=" bg-pink-600 px-4 py-2 text-lg font-semibold text-white rounded"
-          to="#"
+          to="/merchant-page"
         >
           Explore Eventr Merchant
         </Link>
