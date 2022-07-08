@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const CarouselItem = ({ name, image }) => {
+const CarouselItem = ({ name, image, url }) => {
   return (
     <div
       className="card"
@@ -8,7 +8,7 @@ const CarouselItem = ({ name, image }) => {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url(${image})`,
       }}
     >
-      <Link to={"#"}>{name}</Link>
+      <Link to={url}>{name}</Link>
     </div>
   );
 };

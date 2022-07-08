@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <>
       <Slider />
+      <h1 className=" text-5xl font-bold mt-8 ml-20">Popular Services</h1>
       <ServicesCarousel />
       <Features />
       <MerchantBanner />

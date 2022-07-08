@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import MerchantPage from "./pages/MerchantPage";
 import MerchantRegister from "./pages/MerchantRegister";
 import MerchantLogin from "./pages/MerchantLogin";
+import CategoryGallery from "./pages/CategoryGallery";
 import "./index.css";
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/merchant-page" element={<MerchantPage />} />
         <Route path="/merchant-register" element={<MerchantRegister />} />
         <Route path="/merchant-login" element={<MerchantLogin />} />
+        <Route path="/:url" element={<CategoryGallery />} />
       </Routes>
       <Footer />
     </Router>

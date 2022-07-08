@@ -222,3 +222,6 @@ article.nextSlide {
 .merchant-banner {
   height: 80vh;
 }
+.merchant-image {
+  width: 55%;
+}
