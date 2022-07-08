@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaShoppingCart } from "react-icons/fa";
 import logo from "../assets/logo.png";
 
 export default function Navbar({ fixed }) {
@@ -31,13 +31,12 @@ export default function Navbar({ fixed }) {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul className="flex flex-col items-center lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 pt-0"
                   to="/register"
                 >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2 text-border text-gray-500">
                     Register
                   </span>
@@ -48,7 +47,6 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 pt-0"
                   to="/login"
                 >
-                  <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2 text-border text-gray-500">Log in</span>
                 </Link>
               </li>
@@ -57,9 +55,18 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 pt-0"
                   to={"/merchant-page"}
                 >
-                  <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2 text-border text-gray-500">
                     Merchant
+                  </span>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 pt-0"
+                  to={"/cart"}
+                >
+                  <span className="ml-2 text-border text-gray-500">
+                    <FaShoppingCart size={28} />
                   </span>
                 </Link>
               </li>

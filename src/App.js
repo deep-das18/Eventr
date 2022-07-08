@@ -10,6 +10,8 @@ import MerchantPage from "./pages/MerchantPage";
 import MerchantRegister from "./pages/MerchantRegister";
 import MerchantLogin from "./pages/MerchantLogin";
 import CategoryGallery from "./pages/CategoryGallery";
+import Checkout from "./components/Checkout";
+import Cart from "./pages/Cart";
 import "./index.css";
 
 export default function App() {
@@ -24,6 +26,8 @@ export default function App() {
         <Route path="/merchant-register" element={<MerchantRegister />} />
         <Route path="/merchant-login" element={<MerchantLogin />} />
         <Route path="/:url" element={<CategoryGallery />} />
+        <Route path="/place-order" element={<Checkout />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Footer />
     </Router>
