@@ -16,28 +16,28 @@ const ServicesCarousel = () => {
         image={
           "https://images.unsplash.com/photo-1571268373914-e888c6dafeff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }
-        url={"/venues"}
+        url={"/category/venues"}
       />
       <CarouselItem
         name={"Decoration"}
         image={
           "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
         }
-        url={"/decoration"}
+        url={"/category/decoration"}
       />
       <CarouselItem
         name={"Catering"}
         image={
           "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }
-        url={"/catering"}
+        url={"/category/catering"}
       />
       <CarouselItem
         name={"Lighting"}
         image={
           "https://images.unsplash.com/photo-1541407739387-485eb7a0351e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }
-        url={"/lighting"}
+        url={"/category/lighting"}
       />
       {/* <CarouselItem number={100} /> */}
     </Carousel>
