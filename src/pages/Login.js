@@ -13,9 +13,6 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log(email, password);
-
-    // UNCOMMENT FOR POSTING
 
     // try {
     //   const response = await axios.post(

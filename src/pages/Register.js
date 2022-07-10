@@ -14,31 +14,30 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(firstName, lastname, email, phone, password);
-    // setLoading(true);
-    // alert("Registration Successfull!");
-    // SENDING DATAAAAAAAA
-    // try {
-    // setLoading(true);
-    //  const response= await axios.post("Eventr/api/v1/register", {
-    //   firstName,
-    //   lastname,
-    //   email,
-    //   phone,
-    //   password,
-    // });
-    //   if( response.success === true){
-    // setFirstName("")
-    // setLastname("")
-    // setEmail("")
-    // setPhone("")
-    // setPassword("")
-    // setLoading(false)
-    //        alert("Registration Successfull!");
-    //   }
-    // } catch (error) {
-    //   console.log(error);
-    // setLoading(false)
-    // }
+    setLoading(true);
+    alert("Registration Successfull!");
+    try {
+      setLoading(true);
+      const response = await axios.post("Eventr/api/v1/register", {
+        firstName,
+        lastname,
+        email,
+        phone,
+        password,
+      });
+      if (response.success === true) {
+        setFirstName("");
+        setLastname("");
+        setEmail("");
+        setPhone("");
+        setPassword("");
+        setLoading(false);
+        alert("Registration Successfull!");
+      }
+    } catch (error) {
+      console.log(error);
+      setLoading(false);
+    }
   };
   if (loading) {
     return <div className="loading"></div>;

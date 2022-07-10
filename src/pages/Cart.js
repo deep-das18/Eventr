@@ -4,7 +4,7 @@ import "../cart.css";
 function Header({ itemCount }) {
   return (
     <header className="cart-container">
-      <h1>Shopping Cart</h1>
+      <h1 className=" font-semibold text-2xl mb-2">Shopping Cart</h1>
 
       <ul className="breadcrumb cart-ul">
         <li>Home</li>
@@ -128,17 +128,19 @@ function Summary({
 
 const PRODUCTS = [
   {
-    image: "https://via.placeholder.com/200x150",
-    name: "PRODUCT ITEM NUMBER 1",
-    description: "Description for product item number 1",
-    price: 5.99,
+    image:
+      "https://images.unsplash.com/photo-1541407739387-485eb7a0351e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    name: "Basak Lighting and Circuits",
+    description: "Light your Imagination",
+    price: 5001,
     quantity: 2,
   },
   {
-    image: "https://via.placeholder.com/200x150",
-    name: "PRODUCT ITEM NUMBER 2",
-    description: "Description for product item number 1",
-    price: 9.99,
+    image:
+      "https://images.unsplash.com/photo-1555244162-803834f70033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    name: "Sarkar Caterers",
+    description: "Swaad jo hamesha yaad rahe!",
+    price: 7450,
     quantity: 1,
   },
 ];
@@ -246,7 +248,7 @@ function Cart() {
 function formatCurrency(value) {
   return Number(value).toLocaleString("en-US", {
     style: "currency",
-    currency: "USD",
+    currency: "INR",
   });
 }
 

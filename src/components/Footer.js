@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="text-center lg:text-left bg-gray-100 text-gray-600">
-      <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
+    <footer className="text-center lg:text-left  text-gray-600 footer-bg">
+      <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300 bg-gray-100">
         <div className="mr-12 hidden lg:block">
           <span>Get connected with us on social networks:</span>
         </div>
@@ -143,9 +143,8 @@ const Footer = () => {
               Eventr
             </h6>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              nesciunt alias cupiditate voluptate eos quisquam nobis debitis at
-              quia qui.
+              Eventr starts its journey from a small college project. With
+              endless possibilities, the sky is the limit.
             </p>
           </div>
           <div className="">

@@ -2,7 +2,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const Features = () => {
   return (
-    <section className=" flex bg-pink-300 p-4 justify-evenly">
+    <section className=" flex features-container p-4 justify-evenly">
       <article className=" font-semibold">
         <h2 className=" text-3xl font-bold mt-12 mb-9">
           A Whole World of Services at your Fingertips
@@ -63,7 +63,7 @@ const Features = () => {
         <img
           src="https://images.pexels.com/photos/8818634/pexels-photo-8818634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="happy people"
-          className="features-image"
+          className="features-image rounded-lg drop-shadow-lg"
         />
       </div>
     </section>

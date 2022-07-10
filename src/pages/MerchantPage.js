@@ -8,12 +8,11 @@ const MerchantPage = () => {
         <h1 className=" text-6xl text-center font-semibold">
           Welcome to Eventr Merchant
         </h1>
-        <p className=" mt-16 text-center w-3/5 mx-auto">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
-          consequatur impedit odit temporibus sint dolorum facilis magni
-          consectetur nostrum delectus nisi nemo qui harum, consequuntur sunt
-          officia aperiam nesciunt cumque pariatur asperiores quisquam, corrupti
-          facere voluptatibus nobis. Natus, nostrum? Dolorem?
+        <p className=" mt-16 text-center w-3/5 mx-auto text-base">
+          Grow your business and revenues by joining Eventr Merchant. No joining
+          fees or charges required. Sell your services online to more people and
+          scale your business. Get in-depth analysis about the performance of
+          your business from interactive dashboard and graphical charts.
         </p>
         <div className=" mt-10">
           <Link

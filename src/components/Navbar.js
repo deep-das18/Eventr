@@ -35,6 +35,24 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 pt-0"
+                  to="/"
+                >
+                  <span className="ml-2 text-border text-gray-500">Home</span>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 pt-0"
+                  to="/register"
+                >
+                  <span className="ml-2 text-border text-gray-500">
+                    Services
+                  </span>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 pt-0"
                   to="/register"
                 >
                   <span className="ml-2 text-border text-gray-500">
