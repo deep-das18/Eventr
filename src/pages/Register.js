@@ -43,8 +43,11 @@ const Register = () => {
     return <div className="loading"></div>;
   }
   return (
-    <div className=" flex">
-      <img src={signupImage} alt="" />
+    <div className=" flex justify-evenly">
+      <img
+        src="https://images.prismic.io/qpidindia/f9fa0e7b-bf8b-4d3d-8675-6eb4b8182c3f_Qpid-Frame-2.png?auto=compress,format&rect=0,0,786,712&w=786&h=712"
+        alt=""
+      />
       <div className=" flex flex-col items-center">
         <h1 className=" font-bold text-5xl"> Sign Up</h1>
         <form className=" mt-7 w-96">
@@ -127,7 +130,7 @@ const Register = () => {
           <button
             className="group relative w-full flex justify-center
                 py-2 px-4 border border-transparent text-sm font-medium
-                rounded-md text-white bg-indigo-600 hover:bg-indigo-700
+                rounded-md text-white background-col hover:bg-indigo-700
                 focus:outline-none focus:ring-2 focus:ring-offset-2
                 focus:ring-indigo-500 mt-5"
             type="submit"

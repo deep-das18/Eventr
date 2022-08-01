@@ -3,7 +3,7 @@ import { FaLock } from "react-icons/fa";
 import AuthContext from "../AuthProvider";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import loginImage from "../assets/stats-illustration.svg";
+import loginImage from "../assets/sign-in.png";
 export default function Login() {
   const { auth, setAuth } = useContext(AuthContext);
   const [email, setEmail] = useState("");
@@ -120,7 +120,7 @@ export default function Login() {
                 <div className="text-sm">
                   <Link
                     to="#"
-                    className=" font-medium text-indigo-600 hover:text-indigo-500"
+                    className=" font-medium text-color hover:text-indigo-500"
                   >
                     Forgot your password?
                   </Link>
@@ -133,7 +133,7 @@ export default function Login() {
                   type="submit"
                   className="group relative w-full flex justify-center
                 py-2 px-4 border border-transparent text-sm font-medium
-                rounded-md text-white bg-indigo-600 hover:bg-indigo-700
+                rounded-md text-white background-col hover:bg-indigo-700
                 focus:outline-none focus:ring-2 focus:ring-offset-2
                 focus:ring-indigo-500"
                 >

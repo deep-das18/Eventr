@@ -2,8 +2,11 @@ import { Link } from "react-router-dom";
 import merchantImage from "../assets/prototype-illustration.svg";
 const MerchantPage = () => {
   return (
-    <div className=" flex">
-      <img src={merchantImage} className="merchant-image" />
+    <div className=" flex justify-evenly">
+      <img
+        src="https://cdn.discordapp.com/attachments/931519939075002411/1003607483618709555/merchant.png"
+        className="merchant-image ml-8"
+      />
       <div className=" flex flex-col items-center">
         <h1 className=" text-6xl text-center font-semibold">
           Welcome to Eventr Merchant
